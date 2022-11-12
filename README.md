@@ -18,7 +18,7 @@
 </p>
 
 ## Features
-- There is a separate <a href="https://github.com/PRERNA-CHOUDHARY/medicwise-admin">Admin Portal</a> dedicated for the doctors. **[Visit the GitHub Repository for detailed information and implementation of the portal]**
+- There is a separate <a href="https://github.com/kartikmehta8/medicwise/tree/main/admin-portal">Admin Portal</a> dedicated for the doctors. **[Click on the link for detailed information and implementation of the portal]**
 - Each portion of the Medicwise will have its own *Room ID*, given to patients by the respective doctors they want to consult. Each doctor will have their own *medic code* so that patients can appoint them.
 - There is a **chat room** where you can communicate with your doctor.
 - There is a **video room** where you may communicate with your doctor via video call.
