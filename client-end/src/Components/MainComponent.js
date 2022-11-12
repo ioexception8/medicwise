@@ -9,7 +9,7 @@ import Signup from "./SignupComponent";
 import Doctor from "./DoctorComponent";
 import Auth from "./AuthComponent";
 import MentalScreening from "./mentalScreeningComponent";
-import { Switch, Route, Redirect } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 class Main extends Component {
     render() {
@@ -17,6 +17,7 @@ class Main extends Component {
             <div>
                 <Header />
                 <Switch>
+                    <Route exact path="/" component={Home} />
                     <Route path="/home" component={Home} />
                     <Route path="/temp" component={Auth} />
                     <Route path="/video" component={Video} />
@@ -28,7 +29,6 @@ class Main extends Component {
                         path="/mentalscreening"
                         component={MentalScreening}
                     />
-                    <Redirect to="/home" />
                 </Switch>
                 <Footer />
             </div>

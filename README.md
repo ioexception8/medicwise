@@ -28,14 +28,31 @@
 - The seamless payment gateway implemented using <a href="https://stripe.com/en-in">Stripe</a>.
 - **Technologies :**
 
-|               |               |              |
-| ------------- |:-------------:| ------------:|
-| HTML          | SCSS          | Javascript   |
-| ReactJS       | NodeJS        | ExpressJS    |
-| TailwindCSS   | Bootstrap     | MaterialUI   |
-| Firebase      | Auth0         | Stripe       |
-| SocketIO      | Netlify       | TensorflowJS |
-|               |               |              |
+|               |                |              |
+| ------------- |:--------------:| ------------:|
+| HTML          | SCSS           | Javascript   |
+| ReactJS       | NodeJS         | ExpressJS    |
+| TailwindCSS   | Bootstrap      | MaterialUI   |
+| Firebase      | Auth0          | Stripe       |
+| SocketIO      | Netlify        | TensorflowJS |
+| Azure         | Github Actions | App Service  |
+|               |                |              |
+
+## Deployment
+The website (*client & server*) is deployed on **Microsoft Azure**. The `Azure App Service` is what we have used to ease our deployment task.
+
+#### Core features of Azure App Service are:
+- Fully managed service with built-in infrastructure maintenance, security patching, and scaling.
+- Built-in continuous integration and continuous delivery (CI/CD) and zero-downtime deployments.
+- Support for virtual networks, and ability to run in an isolated and dedicated App Service Environment.
+- Rigorous security and compliance standards, including SOC and PCI, for seamless deployments in the cloud, in Azure Government, and on premises.
+
+> **Note**
+> There are three client & one server endpoints.
+- Custom Domain - <a href="https://www.medicwise.us">www.medicwise.us</a>
+- Azure App Service Domain - <a href="https://medicwise-portal.azurewebsites.net">medicwise-portal.azurewebsites.net</a>
+- Netlify Domain - <a href="https://medicwise-portal.netlify.app">medicwise-portal.netlify.app</a>
+- Server - <a href="https://medicwise.azurewebsites.net">medicwise.azurewebsites.net</a>
 
 ## Future Prospects
 - Text-to-Gesture Encoding from Doctor to Client.
@@ -43,12 +60,15 @@
 - Implementing chat bot.
 - Training our ML model to encode and decode many gestures.
 
+<!--
 ## Run Locally
 - Fork the repository.
 - Clone repository to your local system.
 - Install require node_modules using `npm install`.
 - Open server-end in command prompt and execute `npm start` command.
 - Open client-end in command prompt and execute `npm start` command.
+- Open admin-portal in command prompt and execute `npm start` command.
+-->
 
 <hr />
 
