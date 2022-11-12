@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Carme&family=Rubik&display=swap");
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.signUp-font {
+    font-family: "Carme", sans-serif;
+    font-family: "Rubik", sans-serif;
+}
